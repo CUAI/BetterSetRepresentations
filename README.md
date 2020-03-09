@@ -24,7 +24,7 @@ optional arguments:
   --inner_lr INNER_LR   inner lr
 ```
 ```
-usage: run_reconstruct_CLEVR.py [-h] [--model_type MODEL_TYPE]
+usage: run_reconstruct_clevr.py [-h] [--model_type MODEL_TYPE]
                                 [--batch_size BATCH_SIZE] [--lr LR]
                                 [--inner_lr INNER_LR]
 
@@ -59,3 +59,9 @@ optional arguments:
   --inner_lr INNER_LR   inner lr
   --save SAVE           Path of the saved checkpoint
   ```
+
+## Data Generation 
+
+The data for CLEVR with masks was generated using https://github.com/facebookresearch/clevr-dataset-gen and adding the following line: 
+```render_shadeless(blender_objects, path=output_image[:-4]+'_mask.png')```
+on file ```image_generation/render_images.py``` ~line 311 (after the function ```add_random_objects``` is called).
