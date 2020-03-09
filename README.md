@@ -36,6 +36,8 @@ optional arguments:
                         batch size
   --lr LR               lr
   --inner_lr INNER_LR   inner lr
+  --save SAVE           path to save checkpoint
+  --resume RESUME       path to resume a saved checkpoint
 ```  
 
 ```
