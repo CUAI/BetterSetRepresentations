@@ -42,7 +42,7 @@ class Encoder(nn.Module):
 
         s = self.proj_s(out.view(out.shape[0],  self.set_size, 2048//self.set_size).transpose(1,2))
 
-        out = out.view(-1, self.nef*32)
+        out = out.view(out.shape[0], self.nef*32)
         return self.proj(out), s
 
 
@@ -206,7 +206,7 @@ class EncoderCLEVR(nn.Module):
 
         s = self.proj_s(out.view(out.shape[0], self.set_size, 8192//self.set_size).transpose(1,2))
 
-        out = out.view(-1, self.nef*128)
+        out = out.view(out.shape[0], self.nef*128)
         return self.proj(out), s
 
 
