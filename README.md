@@ -1,6 +1,6 @@
 # [NeurIPS 2020] Better Set Representations For Relational Reasoning 
 
-![main figure](https://github.com/CUAI/BetterSetRepresentations/blob/master/imgs/set_.pdf)
+![main figure](https://github.com/CUAI/BetterSetRepresentations/blob/master/imgs/set.png)
 
 ## Software Requirements
 
