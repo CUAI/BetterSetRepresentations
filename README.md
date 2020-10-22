@@ -6,7 +6,7 @@ This codebase requires Python 3, PyTorch 1.0+, Torchvision 0.2+. In principle, t
 
 ## Usage
 
-The three files `run_reconstruct_circles.py`, `run_reconstruct_clevr.py` and `run_isodistance.py` correspond with the three main experiments in the paper.
+The files `run_reconstruct_circles.py`, `run_reconstruct_clevr.py` correspond with the explanatory experiments in the paper. We implemented the three other experiments by simply plugging our module into existing repos linked in supplementary materials, where we specify more details. 
 
 Full usages:
 ```
