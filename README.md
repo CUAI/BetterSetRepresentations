@@ -52,9 +52,10 @@ on file ```image_generation/render_images.py``` ~line 311 (after the function ``
 
 Circles reconstruction samples (From left to right, column-wise: original images, SRN reconstruction, SRN decomposition, baseline reconstruction, baseline decomposition.):
 
-![main figure](https://github.com/CUAI/BetterSetRepresentations/blob/master/imgs/tiled_samples_1.png)
+<img src="https://github.com/CUAI/BetterSetRepresentations/blob/master/imgs/tiled_samples_1.png" width="100%">
+
 
 CLEVR reconstruction samples:
 
-![main figure](https://github.com/CUAI/BetterSetRepresentations/blob/master/imgs/clevr_tile_1.jpg)
+<img src="https://github.com/CUAI/BetterSetRepresentations/blob/master/imgs/clevr_tile_1.jpg" width="100%">
 
